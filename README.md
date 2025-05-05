@@ -1,5 +1,3 @@
-# Retail-Forecasting-Project
-
 # Retail Sales Forecasting using Prophet
 
 This project uses Python and Facebook Prophet to forecast product category sales for a fictional retail dataset. It demonstrates how machine learning and business intelligence can work together to guide smarter inventory and marketing decisions.
