@@ -42,11 +42,25 @@ This project uses Python and Facebook Prophet to forecast product category sales
 
 ---
 
-## Next Steps 
+## Power BI Dashboard
 
-- Automate forecasts to run weekly
-- Add customer segmentation or RFM analysis
-- Deploy a Streamlit or Flask dashboard for interaction
+After generating category-level forecasts using Prophet, I created an interactive dashboard in **Power BI** to compare predicted vs actual sales, specifically for January 2024.
+
+The dashboard includes:
+- Forecast vs Actual line chart
+- KPI cards for total predicted and actual sales
+- Peak sales day comparison
+- Forecast deviation (in days)
+- Prediction accuracy metric
+
+### Key Takeaways:
+- Prophet was trained on 2023 data and used to forecast only January 2024 sales
+- Due to smoothing and limited signals, Prophet didn’t capture all peak spikes (e.g., promotional surges)
+- This visualization helps stakeholders understand both model performance and forecasting limitations
+
+  <p align="center">
+  <img src="images/PowerBI_dashboard.png" alt="Power BI Retail Forecasting Dashboard" width="800"/>
+</p>
 
 ---
 
