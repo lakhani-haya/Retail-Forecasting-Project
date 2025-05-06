@@ -59,7 +59,7 @@ The dashboard includes:
 - This visualization helps stakeholders understand both model performance and forecasting limitations
 
   <p align="center">
-  <img src="images/PowerBI_dashboard.png" alt="Power BI Retail Forecasting Dashboard" width="800"/>
+  <img src="images/RetailForecastPowerBIDashboard.jpg" alt="Power BI Retail Forecasting Dashboard" width="800"/>
 </p>
 
 ---
